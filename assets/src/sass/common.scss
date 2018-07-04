@@ -1,0 +1,130 @@
+body {
+  font-family: 'Play', Arial, sans-serif;
+}
+
+.container {
+  width: 970px;
+}
+
+// Header
+.navbar-header {
+
+  .navbar-brand {
+    padding: 25px 50px;
+  }
+
+  .navbar-right {
+    margin-left: 137px;
+    margin-bottom: 50px;
+
+    a {
+      color: black;
+      padding: 25px 15px;
+      font-size: 13px;
+    }
+
+    li {
+      a:not(.dropdown-toggle) {
+        &:hover {
+          background: transparent;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .language-switcher {
+      padding-left: 10px;
+
+      & > {
+        a {
+          background: #00f;
+          color: #fff;
+          padding: 2px 4px 2px;
+          margin-top: 28px;
+          border-radius: 7px
+        }
+
+        .dropdown-menu {
+          min-width: 33.38px;
+          margin-top: 1px;
+          border: none;
+          border-radius: 7px;
+          padding: 0;
+
+          li {
+            &:first-child {
+              a {
+                border-top-left-radius: 6px;
+                border-top-right-radius: 6px;
+              }
+            }
+
+            &:last-child {
+              a {
+                border-bottom-left-radius: 6px;
+                border-bottom-right-radius: 6px;
+              }
+            }
+
+            a {
+              padding: 1px 5px;
+              text-align: center;
+
+              &:hover {
+                color: #ffffff;
+                background: blue;
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
+
+.start-date {
+  margin-bottom: 20px;
+
+  p {
+    margin: 0;
+    font-weight: bold;
+
+    &:nth-child(1) {
+      font-size: 50px;
+      line-height: 1.1;
+      margin-left: -3px;
+    }
+
+    &:nth-child(2) {
+      font-size: 20px;
+    }
+  }
+}
+
+.header-text {
+  margin-bottom: 50px;
+
+  p {
+    &:first-child {
+      font-size: 25px;
+      line-height: 0.8;
+    }
+
+    &:last-child {
+      line-height: 1.2;
+      font-size: 32px;
+      font-weight: 700;
+      color: darkorange;
+    }
+  }
+}
+
+.register-btn{
+  background: #fecd28;
+  color: #000200;
+  padding: 18px 17px;
+  border-radius: 0;
+}
+
