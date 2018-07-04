@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap-4",
+  "description": "Start project on Bootstrap 4 - itchief.ru",
+  "authors": [
+    "itchief.ru"
+  ],
+  "license": "ISC",
+  "keywords": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/src/bower_components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap-sass": "3.3.7",
+    "components-font-awesome": "^5.0.6",
+    "slick-carousel": "^1.8.1"
+  }
+}
