@@ -2,25 +2,36 @@ body {
   font-family: 'Play', Arial, sans-serif;
 }
 
+header{
+  background: url("../images/header-bg-img.png");
+  padding-bottom: 40px;
+}
+
 .container {
-  width: 970px;
+  width: 940px;
+}
+
+.container-fluid{
+  margin-top: 10px;
+  margin-bottom: 80px;
 }
 
 // Header
 .navbar-header {
 
   .navbar-brand {
-    padding: 25px 50px;
+      & > img{
+        margin-right: 30px
+      }
   }
 
   .navbar-right {
-    margin-left: 137px;
-    margin-bottom: 50px;
-
     a {
-      color: black;
-      padding: 25px 15px;
-      font-size: 13px;
+      max-width: 130px;
+      color: #fff;
+      padding: 25px 10px;
+      text-align: center;
+      font-size: 16px;
     }
 
     li {
@@ -29,6 +40,7 @@ body {
           background: transparent;
           text-decoration: underline;
         }
+
       }
     }
 
@@ -45,8 +57,8 @@ body {
         }
 
         .dropdown-menu {
-          min-width: 33.38px;
-          margin-top: 1px;
+          min-width: 36.93px;
+          margin-top: 2px;
           border: none;
           border-radius: 7px;
           padding: 0;
@@ -67,6 +79,7 @@ body {
             }
 
             a {
+              color: black;
               padding: 1px 5px;
               text-align: center;
 
@@ -85,14 +98,15 @@ body {
 }
 
 .start-date {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 
   p {
     margin: 0;
     font-weight: bold;
+    color: #ffffff;
 
     &:nth-child(1) {
-      font-size: 50px;
+      font-size: 56px;
       line-height: 1.1;
       margin-left: -3px;
     }
@@ -100,23 +114,28 @@ body {
     &:nth-child(2) {
       font-size: 20px;
     }
+
+    &:nth-child(3){
+      font-weight: normal;
+    }
   }
 }
 
 .header-text {
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 
   p {
     &:first-child {
       font-size: 25px;
       line-height: 0.8;
+      color: #ffffff;
     }
 
     &:last-child {
       line-height: 1.2;
-      font-size: 32px;
+      font-size: 36px;
       font-weight: 700;
-      color: darkorange;
+      color: #f09011;
     }
   }
 }
@@ -124,7 +143,8 @@ body {
 .register-btn{
   background: #fecd28;
   color: #000200;
-  padding: 18px 17px;
+  font-size: 24px;
+  padding: 30px 27px;
   border-radius: 0;
 }
 
